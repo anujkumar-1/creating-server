@@ -24,6 +24,7 @@ const server = http.createServer(function (req, res) {
         res.write("<html>")
         res.write("<body><h1>Welcome to my Homepage</h1></body>")
         res.write("</html") 
+        return res.end()
     }
 })
 
